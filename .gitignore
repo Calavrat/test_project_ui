@@ -1,0 +1,13 @@
+playwright_project_1_env/
+__pycache__/
+*.pyc
+.env
+reports/
+screenshots/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
