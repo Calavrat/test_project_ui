@@ -16,4 +16,3 @@ def test_select(page:Page):
     page.get_by_label("size 4 select example").select_option(value=["Playwright", "Python"])
     page.get_by_label("size 4 select example").select_option("Docker")
     assert "Select demo" in title
-
