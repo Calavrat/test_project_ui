@@ -7,16 +7,6 @@ from playwright.sync_api import sync_playwright
 from config import settings
 import os
 from datetime import datetime
-from pages.login_page import LoginPage
-from pages.dashboard_page import DashboardPage
-
-@pytest.fixture
-def login_page(page):
-    return LoginPage(page)
-
-@pytest.fixture
-def dashboard_page(page):
-    return DashboardPage(page)
 
 # Настройка логирования
 if settings.DEBUG:
