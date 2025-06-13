@@ -26,5 +26,3 @@ allure serve /home/hama/Документы/PythonTests/playwright_project_1/repo
 Для allure нужно скачать brew и сам allure
 brew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 allure: brew install allure
-
-
